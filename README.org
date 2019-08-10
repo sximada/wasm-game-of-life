@@ -1,6 +1,10 @@
-#+TITLE: Conway's Game of Life (Rust + WebAssembly rustwasm tutorial)
+#+TITLE: Conway's Game of Life 
 
+Rust + WebAssembly rustwasm tutorial
 https://rustwasm.github.io/docs/book/game-of-life/introduction.html
+
+[[./img/tutorial.gif]]
+
 
 * Development
 
@@ -18,7 +22,6 @@ See: https://github.com/ddollar/foreman
 #+BEGIN_SRC
 foreman startth
 #+END_SRC
-
 
 * Usage
 
