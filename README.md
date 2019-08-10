@@ -1,3 +1,5 @@
+https://rustwasm.github.io/docs/book/game-of-life/introduction.html
+
 <div align="center">
 
   <h1><code>wasm-pack-template</code></h1>
