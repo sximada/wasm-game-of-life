@@ -1,0 +1,60 @@
+#+TITLE: Conway's Game of Life (Rust + WebAssembly rustwasm tutorial)
+
+https://rustwasm.github.io/docs/book/game-of-life/introduction.html
+
+* Development
+
+|---------+---------------------------------|
+| Name    | Installation                    |
+|---------+---------------------------------|
+| Rust    | https://rustup.rs/              |
+| Node.js | https://nodejs.org/en/download/ |
+|---------+---------------------------------|
+
+** Use foreman
+
+See: https://github.com/ddollar/foreman
+
+#+BEGIN_SRC
+foreman startth
+#+END_SRC
+
+
+* Usage
+
+📚 Read this template tutorial! 📚
+
+
+** 🐑 Use `cargo generate` to Clone this Template
+
+[[https://github.com/ashleygwilliams/cargo-generate][Learn more about `cargo generate` here.]]
+
+#+BEGIN_SRC 
+cargo generate --git https://github.com/rustwasm/wasm-pack-template.git --name my-project
+cd my-project
+#+END_SRC
+
+** 🛠️ Build with `wasm-pack build`
+
+#+BEGIN_SRC 
+wasm-pack build
+#+END_SRC
+
+** 🔬 Test in Headless Browsers with `wasm-pack test`
+
+#+BEGIN_SRC 
+wasm-pack test --headless --firefox
+#+END_SRC
+
+** 🎁 Publish to NPM with `wasm-pack publish`
+
+#+BEGIN_SRC 
+wasm-pack publish
+#+END_SRC
+
+** Batteries Included
+
+- [[https://github.com/rustwasm/wasm-bindgen][`wasm-bindgen`]] for communicating between WebAssembly and JavaScript.
+- [[https://github.com/rustwasm/console_error_panic_hook][`console_error_panic_hook`]] for logging panic messages to the developer console.
+- [[https://github.com/rustwasm/wee_alloc][`wee_alloc`]], an allocator optimized for small code size.
+  
