@@ -19,7 +19,7 @@ https://rustwasm.github.io/docs/book/game-of-life/introduction.html
 See: https://github.com/ddollar/foreman
 
 #+BEGIN_SRC
-foreman startth
+foreman start
 #+END_SRC
 
 * Usage
